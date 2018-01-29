@@ -169,3 +169,11 @@ a {
 hr {
     width: 60%;
 }
+
+
+/* Margine Style */
+
+.margin-lg {
+    margin-left: 13%;
+    margin-right: 13%;
+}
