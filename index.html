@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Mirza" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
     <script src="main.js">
@@ -100,18 +101,58 @@
         <div class="flex-column align-item-center">
             <h1> إنجازاتنا </h1>
             <div class="flex-row">
-                <div></div>
+                <canvas id="myChart" width="600" height="400"></canvas>
             </div>
         </div>
     </div>
 
+    <!-- Team work -->
+    <div class="container">
+        <hr>
+        <div class="flex-column align-item-center">
+            <h1> فريق العمل </h1>
+            <div class="flex-row align-item-center">
+                <div class="team card flex-column align-item-center">
+                    <img src="lil-face-10-512.png" alt="" srcset="" height="100" width="100">
+                    <h3 class="margin-bottom-0"> احمد </h3>
+                    <h4 class="margin-top-0"> نائب </h4>
+                </div>
+                <div class="card flex-column align-item-center">
+                    <img src="lil-face-13-512.png" alt="" srcset="" height="100" width="100">
+                    <h3 class="margin-bottom-0"> زيتونة</h3>
+                    <h4 class="margin-top-0"> رئيسة </h4>
+                </div>
+                <div class="team card flex-column align-item-center">
+                    <img src="lil-face-10-512.png" alt="" srcset="" height="100" width="100">
+                    <h3 class="margin-bottom-0"> زهير </h3>
+                    <h4 class="margin-top-0"> كاتب </h4>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Contacter nous -->
     <div class="container">
         <hr>
         <div class="flex-column align-item-center">
             <h1> تواصل معنا </h1>
             <div class="flex-row">
-                <!-- formule -->
+                <form action="" method="get">
+                    <div>
+                        <label for="">الإسم الكامل</label>
+                        <input name="name" type="text">
+                    </div>
+                    <div>
+                        <label for=""> البريد الإلكتروني</label>
+                        <input name="email" type="email">
+                    </div>
+                    <div>
+                        <label for="">الموضوع </label>
+                        <input name="subject" type="text">
+                    </div>
+                    <div>
+                        <textarea name="text" type="textarea" rows="4" cols="50">
+                    </div>
+                </form>
             </div>
         </div>
     </div>

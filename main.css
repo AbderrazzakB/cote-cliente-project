@@ -177,3 +177,28 @@ hr {
     margin-left: 13%;
     margin-right: 13%;
 }
+
+
+/* chart style*/
+
+#myChart {
+    max-width: 600px;
+}
+
+
+/* Image style */
+
+.img-rounded {
+    width: 60%;
+}
+
+
+/* Team style */
+
+.margin-bottom-0 {
+    margin-bottom: 0px;
+}
+
+.margin-top-0 {
+    margin-top: 0px;
+}
