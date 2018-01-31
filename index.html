@@ -22,16 +22,16 @@
             <div><a class="nav-bar-item" href="#port">جمعية بن عزوز</a></div>
         </div>
         <div class="nav-item">
-            <div><a class="nav-bar-item" href="#work">عن الجمعية</a></div>
-            <div><a class="nav-bar-item" href="#skil">رؤيتنا</a></div>
-            <div><a class="nav-bar-item" href="#about">إنجازاتنا</a></div>
-            <div><a class="nav-bar-item" href="#cont">فريق العمل</a></div>
+            <div><a class="nav-bar-item" href="#about">عن الجمعية</a></div>
+            <div><a class="nav-bar-item" href="#vision">رؤيتنا</a></div>
+            <div><a class="nav-bar-item" href="#project">إنجازاتنا</a></div>
+            <div><a class="nav-bar-item" href="#team">فريق العمل</a></div>
             <div><a class="nav-bar-item" href="#cont"> تواصل معنا</a></div>
         </div>
         <div class="social-media">
             <div><a href="https://www.facebook.com/benbouya.abderrazzak" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></div>
             <div>
-                <a href="https://twitter.com/AbderazakeB" target="_blank" <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                <a href="https://twitter.com/AbderazakeB" target="_blank"> <i class="fa fa-twitter-square" aria-hidden="true"></i>
                 </a>
             </div>
             <div><a href="" target="_blank"><i class="fa fa-google-plus-square" aria-hidden="true"></i>
@@ -50,16 +50,16 @@
     </div>
 
     <!-- About the association -->
-    <div class="container">
+    <div class="container" id="about">
         <hr>
-        <div class="flex-column align-item-center">
-            <h1>نبذة عن الجمعية</h1>
+        <div class="flex-column align-item-center" id="vision">
+            <h1 class="color-bleu">نبذة عن الجمعية</h1>
             <div class="flex-row">
-                <div class="corner container white bg-green card">
+                <div class="corner container white bg-bleu card">
                     <h2 class="text-larger"> تاريخ التأسيس </h2>
                     <p class="font-20"> 2003 </p>
                 </div>
-                <div class="corner container white bg-green card">
+                <div class="corner container white bg-bleu card">
                     <h2 class="text-larger">مجال إشتغال الجمعية</h2>
                     <ul class="font-20">
                         <li> الماء الصالح للشرب </li>
@@ -67,7 +67,7 @@
                         <li> التعليم </li>
                     </ul>
                 </div>
-                <div class="corner container white bg-green card ">
+                <div class="corner container white bg-bleu card ">
                     <h2 class="text-larger"> أهداف الجمعية </h2>
                     <ul class="font-20">
                         <li> توفير مصادر ماء صالح للشرب ومستدامة </li>
@@ -82,10 +82,10 @@
     </div>
 
     <!-- our vesion -->
-    <div class="container">
+    <div class="container" id="vision">
         <hr>
         <div class="flex-column align-item-center">
-            <h1> رؤيتنا </h1>
+            <h1 class="color-bleu"> رؤيتنا </h1>
             <div class="margin-lg">
                 <p class="font-larger">رؤيتنا أن نكون المطوِّر العقاري الأكثر تميزاً في المنطقة وأن نقدم وحدات سكنية وعقارات بتصاميم إبداعية تساهم في تشكيل أفضل الفرص الاستثمارية. رسالتنا أن نحقق الريادة في السوق العقاري من خلال تقديم أعلى معايير الجودة والتصاميم الفذة في كل
                     من العقارات السكنية والمتخصصة وأن نقدم أعمالنا بإطار من الابتكار والمرونة والإبداع. قيمنا نؤمن بأن الوصول إلى مرحلة المطوِّر العقاري الناجح يتطلب أكثر من مجرد بناء عقارات، فنحن في طراز نتفانى بهدف تأسيس شراكة دائمة وراسخة مع عملائنا..
@@ -96,10 +96,10 @@
     </div>
 
     <!-- our works -->
-    <div class="container">
+    <div class="container" id="project">
         <hr>
         <div class="flex-column align-item-center">
-            <h1> إنجازاتنا </h1>
+            <h1 class="color-bleu"> إنجازاتنا </h1>
             <div class="flex-row">
                 <canvas id="myChart" width="600" height="400"></canvas>
             </div>
@@ -107,10 +107,10 @@
     </div>
 
     <!-- Team work -->
-    <div class="container">
+    <div class="container" id="team">
         <hr>
         <div class="flex-column align-item-center">
-            <h1> فريق العمل </h1>
+            <h1 class="colot-bleu"> فريق العمل </h1>
             <div class="flex-row align-item-center">
                 <div class="team card flex-column align-item-center">
                     <img src="lil-face-10-512.png" alt="" srcset="" height="100" width="100">
@@ -131,30 +131,37 @@
         </div>
     </div>
     <!-- Contacter nous -->
-    <div class="container">
+    <div class="container" id="cont">
         <hr>
         <div class="flex-column align-item-center">
-            <h1> تواصل معنا </h1>
-            <div class="flex-row">
-                <form action="" method="get">
-                    <div>
-                        <label for="">الإسم الكامل</label>
-                        <input name="name" type="text">
-                    </div>
-                    <div>
-                        <label for=""> البريد الإلكتروني</label>
-                        <input name="email" type="email">
-                    </div>
-                    <div>
-                        <label for="">الموضوع </label>
-                        <input name="subject" type="text">
-                    </div>
-                    <div>
-                        <textarea name="text" type="textarea" rows="4" cols="50">
-                    </div>
+            <h1 class="color-bleu"> تواصل معنا </h1>
+            <div class="container-contact">
+                <form id="contact" action="" method="post">
+                    <h4>تواصل معنا الان وسوف نجيب خلال 24 ساعة التالية</h4>
+                    <fieldset>
+                        <input placeholder="الإسم الكامل" type="text" tabindex="1" required>
+                    </fieldset>
+                    <fieldset>
+                        <input placeholder="البريد الإلكتروني" type="email" tabindex="2" required>
+                    </fieldset>
+                    <fieldset>
+                        <input placeholder="رقم الهاتف" type="tel" tabindex="3" required>
+                    </fieldset>
+                    <fieldset>
+                        <input placeholder="الموقع الإلكتروني يجب ان يبدأ ب http://" type="url" tabindex="4" required>
+                    </fieldset>
+                    <fieldset>
+                        <textarea placeholder="أكبت رسالتك هنا ...." tabindex="5" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">إرسال</button>
+                    </fieldset>
                 </form>
             </div>
         </div>
+    </div>
+    <div class="container">
+        <h4 style="text-align:left">تم التطوير من طرف عبد الرزاق بنبوية و عبد الله الجوجاوي</h4>
     </div>
 
 </body>
