@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $.getJSON("data.json",
+    $.getJSON("script/data.json",
         function(data) {
             var l = data.map(function(obj) {
                 return obj.date;
