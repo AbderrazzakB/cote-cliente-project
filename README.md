@@ -1,3 +1,4 @@
-# cote-cliente-project
-  utiliser un serveur
-  les framwork javascript nessecite un connectoin avtive 
+# Project Web Développement Côté client
+## Réaliser par JOUJAOUI Abdellah et BENBOUYA Abderrazzak
+- les framwork javascript nessecite un connectoin avtive
+- JSON nessecite un local server
